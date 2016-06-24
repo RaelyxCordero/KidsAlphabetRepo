@@ -1,0 +1,11 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="animal">180dp</dimen>
+    <dimen name="balloon">150dp</dimen>
+    <dimen name="balloonHeight">280dp</dimen>
+    <dimen name="balloonHeight_sc">125dp</dimen>
+    <dimen name="letter">150dp</dimen>
+    <dimen name="nextbutton">40dp</dimen>
+</resources>

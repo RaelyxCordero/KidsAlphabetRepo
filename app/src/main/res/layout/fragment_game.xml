@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/fragment_activity"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Base.TextAppearance.AppCompat.Display1"
+    xmlns:customfont="http://schemas.android.com/apk/res-auto">
+
+
+
+    <ImageView
+        android:id="@+id/balloon"
+        android:layout_width="@dimen/balloon"
+        android:layout_height="@dimen/balloonHeight"
+        android:layout_centerHorizontal="true"/>
+
+
+    <ImageView
+        android:id="@+id/animal"
+        android:layout_width="@dimen/animal"
+        android:layout_height="@dimen/animal"
+        android:layout_marginTop="160dp"
+        android:layout_centerHorizontal="true"/>
+
+
+
+    <ImageView
+        android:id="@+id/balloon_sc"
+        android:layout_width="@dimen/balloon"
+        android:layout_height="@dimen/balloonHeight_sc"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/letter"
+        android:layout_width="@dimen/letter"
+        android:layout_height="@dimen/letter"
+        android:paddingBottom="60dp"
+        android:paddingTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+
+    <com.mercadeotodo.kidsalphabet.CustomFontTextView
+        customfont:fontName="fontastique.ttf"
+        android:id="@+id/animal_name"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:textColor="#393737"
+        android:textSize="37sp"/>
+
+    <ImageButton
+        android:id="@+id/next_button"
+        android:layout_width="@dimen/nextbutton"
+        android:layout_height="@dimen/nextbutton"
+        android:background="@android:color/transparent"
+        android:onClick="onClick"
+        android:scaleType="centerInside"
+        android:layout_margin="10dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:id="@+id/back_button"
+        android:layout_width="@dimen/nextbutton"
+        android:layout_height="@dimen/nextbutton"
+        android:onClick="onClick"
+        android:scaleType="centerInside"
+        android:layout_marginLeft="10dp"
+        android:background="@android:color/transparent"
+        android:layout_alignTop="@+id/next_button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
+
